@@ -22,3 +22,25 @@
     color: #C85F5F;
     font-size: 30px;
 }
+
+.inicio{
+    background-image: linear-gradient(#ffffff,#C85F5F);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parana-img{
+    width: 100%;
+}
+
+.inicio-titulo{
+    color: white;
+    font-size: 128px;
+}
+
+.inicio-subtitulo{
+    color: white;
+    font-size: 36px;
+}

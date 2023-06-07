@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.cabecalho{
+.cabecalho {
     background-color: #ffffff;
     color: white;
     display: flex;
@@ -12,35 +12,44 @@
     padding: 24px 0;
 }
 
-.cabecalho-imagem{
+.cabecalho-imagem {
     width: 20%;
 }
 
-.cabecalho-lista-item{
+.cabecalho-lista-item {
     display: inline-block;
     margin: 0 16px;
     color: #C85F5F;
-    font-size: 30px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
 
-.inicio{
-    background-image: linear-gradient(#ffffff,#C85F5F);
+.inicio {
+    background-image: linear-gradient(#ffffff, #C85F5F);
+    background-image: url("background-img.png");
+    height: 450px;
     color: white;
-    display: flex;
+    display: center;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
 }
 
-.parana-img{
+.parana-img {
     width: 100%;
 }
 
-.inicio-titulo{
+.inicio-titulo {
     color: white;
     font-size: 128px;
+    font-weight: 900;
 }
 
-.inicio-subtitulo{
+.inicio-subtitulo {
     color: white;
     font-size: 36px;
+    font-weight: 600;
+    margin-top: -24px;
 }
